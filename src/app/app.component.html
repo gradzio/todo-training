@@ -1,11 +1,13 @@
-<ul class="nav">
+<ul class="nav bg-primary">
   <li class="nav-item">
-    <a class="nav-link active" aria-current="page" routerLink="/">Home</a>
+    <a class="nav-link active text-white" aria-current="page" routerLink="/">Home</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" routerLink="/about-us">About Us</a>
+    <a class="nav-link text-white" routerLink="/about-us">About Us</a>
   </li>
 </ul>
 <div class="container-fluid">
-  <router-outlet></router-outlet>
+  <section class="p-3 p-md-5 bg-white">
+    <router-outlet></router-outlet>
+  </section>
 </div>
