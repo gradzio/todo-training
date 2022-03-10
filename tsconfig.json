@@ -15,7 +15,17 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "employees": [
+        "dist/employees/employees",
+        "dist/employees"
+      ],
+      "test": [
+        "dist/test/test",
+        "dist/test"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false
