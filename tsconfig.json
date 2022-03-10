@@ -21,10 +21,7 @@
         "dist/employees/employees",
         "dist/employees"
       ],
-      "test": [
-        "dist/test/test",
-        "dist/test"
-      ]
+      "@employees": ["projects/employees/src/index.ts"]
     }
   },
   "angularCompilerOptions": {
